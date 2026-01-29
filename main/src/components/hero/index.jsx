@@ -19,7 +19,7 @@ function Hero() {
                     <p className="text-[#86928B] text-base sm:text-lg mb-8 max-w-md leading-relaxed">
                         Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие произведения, доступные цены.
                     </p>
-                    <button className="border border-[#598D66] text-[#598D66] px-10 py-3 sm:px-12 sm:py-4 sm:w-auto hover:bg-[#598D66] hover:text-white transition-all">
+                    <button className="border border-[#598D66] text-[#598D66] font-medium px-10 py-3 sm:px-12 sm:py-4 sm:w-auto hover:bg-[#598D66] hover:text-white transition-all">
                         Продукция
                     </button>
                 </div>
