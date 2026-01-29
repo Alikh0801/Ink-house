@@ -14,7 +14,7 @@ function Team() {
                 <img
                     src="/images/team/pens.png"
                     alt="Pens"
-                    className="absolute z-20 w-[65%] left-[12%] -top-[2%] origin-bottom -scale-x-100"
+                    className="absolute z-20 w-[65%] left-[12%] top-[23%] md:top-[10%] lg:-top-[1%] origin-bottom -scale-x-100"
                     style={{
                         transform: 'translateY(-15%)'
                     }}

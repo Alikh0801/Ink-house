@@ -10,9 +10,10 @@ export const Reproduction = () => {
 
     return (
         <section className="max-w-6xl mx-auto px-4 py-16">
-            <div className="flex flex-col md:flex-row justify-between items-center mb-10 gap-6">
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-10 gap-6">
                 <h2 className="text-3xl font-semibold text-[#2C2D35]">Репродукции</h2>
-                <div className="flex gap-4">
+
+                <div className="flex flex-wrap gap-3 sm:gap-4">
                     {['France', 'Germany', 'England'].map(cnt => (
                         <button key={cnt}
                             onClick={() => setActiveTab(cnt)}
@@ -26,7 +27,7 @@ export const Reproduction = () => {
                     ))}
                 </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-12 sm:px-5 md:px-9 lg:px-4">
                 {filteredData.map(item => <Card key={item.id} item={item} />)}
             </div>
         </section>
